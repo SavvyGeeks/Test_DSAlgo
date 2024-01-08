@@ -1,0 +1,12 @@
+Feature: Signout Link
+  Scenario: Signout Link
+   Given User is on home page for GraphPage
+   Given User enters sheetname "<sheetName>" and rownumber <rowNumber>
+    Then Enter username "<userName>" and password "<password>" to signin 
+    When The user in DS Algo home page
+    Then The User click signedout its navigate to home page
+    
+     
+     
+     
+  
