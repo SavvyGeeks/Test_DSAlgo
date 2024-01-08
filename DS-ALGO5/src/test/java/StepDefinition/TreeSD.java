@@ -102,8 +102,8 @@ public class TreeSD {
     public void user_navigates_the_implementation_in_python_page() {
     }
 
-    @When("I click the binaryTreeTraversals Link")
-    public void i_click_the_binary_tree_traversals_link() {
+    @When("user click the binaryTreeTraversals Link")
+    public void user_click_the_binary_tree_traversals_link() {
         treePage.ClickBinaryTreeTraversalsLink();
     }
     @When("User click the implementationOfBinary Link")
