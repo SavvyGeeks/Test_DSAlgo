@@ -155,8 +155,8 @@ public class RegisterSD {
 		LoggerLoad.info("The user clicks Register button after entering different passwords in Password and Password Confirmation fields");
 	}
 
-	@Then("It should display an error message-password_mismatch:The two password fields didn't match.")
-	public void it_should_display_an_error_message_password_mismatch_the_two_password_fields_didnâ€_t_match() {
+	@Then("It should display an error message-password_mismatch:The two password fields did not match.")
+	public void it_should_display_an_error_message_password_mismatch_the_two_password_fields_did_not_match() {
 
 		register.passwordMissmatch();
 

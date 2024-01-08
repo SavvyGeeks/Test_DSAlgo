@@ -22,7 +22,7 @@ Feature: Title of your feature   I want to use this template for my feature file
     When The user enters a name with characters other than Letters, digits and special characters like @, ., +, -, _
    Then It should display an error message- Please enter a valid username
    When The user clicks Register button after entering different passwords in Password and Password Confirmation fields
-    Then It should display an error message-password_mismatch:The two password fields didn't match.
+    Then It should display an error message-password_mismatch:The two password fields did not match.
     When The user enters a Password with less than eight characters
     Then It should display an error message-Password should contain atleast eight characters
     When User enters valid username, password, password confirmation and clicks on Register button
