@@ -1,0 +1,23 @@
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  Scenario: Try here Valid Data
+    Given The User navigates to Try EditorPage
+    When User enters python code sheetname "Python_Code" and rownumber 0
+    Then The User Enter Python valid data"<pythonCode>" in to the TextArea
+    Then User click on RunButton
+    And It Display vaild message 
+
+  Scenario: Try here Invalid Data
+    Given The User navigates to Try EditorPage
+    When User enters python code sheetname "Python_Code" and rownumber 1
+    Then The User Enters Invalid Python data"<pythonCode>" in to the TextArea
+    Then User click on RunButton
+    Then The user gets an error message
+    
+     Scenario Outline: Try here Valid Data
+
+    When User enters python code sheetname "Python_Code" and rownumber 10
+    Then The User Enter Python valid data"<pythonCode>" in to the TextArea
+    Then User click on RunButton
+    And It Display vaild message 
