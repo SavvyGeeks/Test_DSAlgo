@@ -66,7 +66,7 @@ public class ArrayPage {
      {
     	 webDriver.findElement( searchTheArray).click();
      }	
-     public void maxConsecutiveOnes()
+     public void clickmaxConsecutiveOnes()
      {
     	 webDriver.findElement( maxConsecutiveOnes).click();
      }	
