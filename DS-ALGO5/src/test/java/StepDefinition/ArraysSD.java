@@ -1,4 +1,4 @@
-/*package StepDefinition;
+package StepDefinition;
 
 import java.io.IOException;
 
@@ -10,13 +10,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class ArraysSD_ {
+public class ArraysSD {
 
 	ArrayPage arraypage = new ArrayPage(DriverFactory.getDriver());
-
-
-
-	@When("User click the GetStared button under Array subtitle")
+	
+   @When("User click the GetStared button under Array subtitle")
 	public void user_click_the_get_stared_button_under_array_subtitle() {
 		arraypage.getStarted();
 	}
@@ -78,11 +76,30 @@ public class ArraysSD_ {
 	  arraypage.clicksearchTheArray();
 	}
 
-//	@Then("The user should be redirected to question page contains an tryEditor with Run and Submit buttons")
-//	public void the_user_should_be_redirected_to_question_page_contains_an_try_editor_with_run_and_submit_buttons() {
-//	
-//	
-//	}
+	@Then("The user should be redirected to question page contains an tryEditor with Run and Submit buttons")
+	public void the_user_should_be_redirected_to_question_page_contains_an_try_editor_with_run_and_submit_buttons() {
+	
+	
+	}
+	
+	@When("The user clicks the Max Consicutive ones")
+	public void the_user_clicks_the_max_consicutive_ones() {
+	 arraypage.clickmaxConsecutiveOnes();
+	}
+	
+	@When("The user clicks the Find numbers with Even Number Of Digits")
+	public void the_user_clicks_the_find_numbers_with_even_number_of_digits() {
+	   
+		arraypage.ClickFindNumberWithEvnNumOfDigits();
+	}
+
+	@When("The user clicks the Squres Of A Sorted Array")
+	public void the_user_clicks_the_squres_of_a_sorted_array() {
+		arraypage.ClickSquaresOfSortedArray();
+	   
+	}
+
+
 //
 //	@Given("The user is on Question page of {string} after logged in")
 //	public void the_user_is_on_question_page_of_after_logged_in(String string) {
@@ -114,4 +131,4 @@ public class ArraysSD_ {
 //	   
 //	}
 
-}*/
+}

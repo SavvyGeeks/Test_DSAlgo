@@ -1,19 +1,22 @@
-/*package com.pages;
+package com.pages;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.StringTokenizer;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 //import org.testng.Assert;
 import org.testng.Assert;
 
 import com.qa.util.ExcelReader;
 
-public class TryHerePage_ {
+public class TryHerePage {
 	
 	By tryhere = By.linkText("Try here>>>");
 	By writeintexbox = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
@@ -33,7 +36,7 @@ public class TryHerePage_ {
 	
 
 	
-	 public TryHerePage_(WebDriver webDriver) {
+	 public TryHerePage(WebDriver webDriver) {
 	        super();
 	        this.webDriver = webDriver;
 	    }
@@ -58,6 +61,8 @@ public class TryHerePage_ {
 	        ExcelReader reader = new ExcelReader();
 	        List<Map<String, String>> testdata = reader.getData("src/test/resources/ExcelData/signInTestData.xlsx", sheetName);
 	        pyCode = testdata.get(rowNumber).get("pythonCode");
+	        System.out.println("ZZZZZZ PyCode -----"+pyCode);
+
 	        expectedResult = testdata.get(rowNumber).get("Result");
 	        System.out.println("PyCode -----"+pyCode);
 	        
@@ -70,10 +75,35 @@ public class TryHerePage_ {
 	    }
 
 	    public void Txtarea() throws InterruptedException {
-	        webDriver.findElement(writeintexbox).sendKeys(pyCode);
+
+	       enterCodePractice(pyCode,  webDriver.findElement(writeintexbox));
+	       //webDriver.findElement(writeintexbox).sendKeys("Hello");
 	        System.out.println("enter here");
 
 	    }
+	    
+	    public void enterCode(String code, WebElement element) {
+
+			new Actions(webDriver).sendKeys(element, code).perform();
+		}
+
+		public void enterCodePractice(String code, WebElement element) {
+			new Actions(webDriver)
+			.keyDown(Keys.CONTROL)
+			.sendKeys("a")
+			.sendKeys(Keys.DELETE)
+			.keyUp(Keys.CONTROL)
+			.perform();
+			String[] str1 = code.split("\n");
+			for (int i = 0; i < str1.length; i++) {
+				if (str1[i].equalsIgnoreCase("\\b")) {
+					element.sendKeys(Keys.BACK_SPACE);
+				} else {
+					element.sendKeys(str1[i]);
+					element.sendKeys(Keys.RETURN);
+				}
+			}
+		}
 
 	    public void runButtton() {
 	        webDriver.findElement(runbutton).click();
@@ -108,4 +138,4 @@ public class TryHerePage_ {
 	 
 	    }
 	
-}*/
+}

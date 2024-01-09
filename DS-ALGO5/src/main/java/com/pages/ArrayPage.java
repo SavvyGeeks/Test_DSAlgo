@@ -1,4 +1,4 @@
-/*package com.pages;
+package com.pages;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -66,7 +66,7 @@ public class ArrayPage {
      {
     	 webDriver.findElement( searchTheArray).click();
      }	
-     public void maxConsecutiveOnes()
+     public void clickmaxConsecutiveOnes()
      {
     	 webDriver.findElement( maxConsecutiveOnes).click();
      }	
@@ -112,6 +112,4 @@ public class ArrayPage {
 	
 
 
-}*/
-
-
+}

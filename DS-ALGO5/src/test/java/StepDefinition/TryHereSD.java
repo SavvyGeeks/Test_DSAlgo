@@ -1,8 +1,8 @@
-/*package StepDefinition;
+package StepDefinition;
 
 import java.io.IOException;
 
-import com.pages.TryHerePage_;
+import com.pages.TryHerePage;
 import com.qa.factory.DriverFactory;
 
 import io.cucumber.java.en.Given;
@@ -10,7 +10,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class TryHereSD {
-	TryHerePage_ tryherepage = new TryHerePage_(DriverFactory.getDriver());
+	TryHerePage tryherepage = new TryHerePage(DriverFactory.getDriver());
 	
 	@Given("The User navigates to Try EditorPage")
 	public void the_user_navigates_to_try_editor_page() {
@@ -58,7 +58,4 @@ public class TryHereSD {
 	}
 
 
-}*/
-
-
-
+}
