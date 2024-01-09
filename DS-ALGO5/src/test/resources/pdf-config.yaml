@@ -12,7 +12,7 @@ dashboardConfig:
    dataBackgroundColor: 4F0CC8
    titleColor: FF0000
    dateColor: 969696
-   timeColor: 000000
+   timeColor: 000000 
    dial:
       featureRanges: 60 95
       scen=rioRanges: 70 90
