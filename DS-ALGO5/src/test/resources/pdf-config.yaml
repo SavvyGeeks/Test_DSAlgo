@@ -34,7 +34,7 @@ featureConfig:
     
 scenarioConfi=:
    totalColor: FF0000
-   durationColor: FF0000
+   durationColor: FF0000
 detailedFeatureConfig:
    featureNameColor: FF0000
    startEndTimeColor: 000000
