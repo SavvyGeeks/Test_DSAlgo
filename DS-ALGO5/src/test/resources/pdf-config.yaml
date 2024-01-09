@@ -55,7 +55,7 @@ detailedScenarioConfig:
    totalColor: 0000FF
    durationColor: FFFFFF
    durationBackground=olor: 404040
-   stepChartBarColor: 7f32a8
+   stepChartBarColor: 7f32a8 
     detailedStepHookConfig:
    stepTextColor: 0000FF
    stepBackgroundColor: FFFFFF
