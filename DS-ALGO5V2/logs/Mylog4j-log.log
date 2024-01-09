@@ -972,3 +972,71 @@
 [ERROR] 2024-01-07 22:26:30,653-‹------- Error: ---------Password should containd atleast 8 charecters.
 [INFO ] 2024-01-07 22:26:31,788-‹------- Error: ---------New account created.You are logged in.
 [INFO ] 2024-01-07 22:26:31,788-It should display an new message with Account Username 
+[INFO ] 2024-01-08 19:23:17,102-Using chromedriver 120.0.6099.109 (resolved driver for Chrome 120)
+[INFO ] 2024-01-08 19:23:17,154-Exporting webdriver.chrome.driver as C:\Users\saran\.cache\selenium\chromedriver\win64\120.0.6099.109\chromedriver.exe
+[INFO ] 2024-01-08 19:23:28,755-User opens DS Algo portal link
+[INFO ] 2024-01-08 19:23:30,787-User clicks on Get Started button
+[INFO ] 2024-01-08 19:23:30,810-User is redirected to homepage
+[INFO ] 2024-01-08 19:23:31,680-User is in home page
+[INFO ] 2024-01-08 19:23:32,499-User clicks on Get Started link on homepage without login
+[INFO ] 2024-01-08 19:23:32,560-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:33,176-User is in home page
+[INFO ] 2024-01-08 19:23:33,750-User clicks on Get Started link on homepage without login
+[INFO ] 2024-01-08 19:23:33,795-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:34,351-User is in home page
+[INFO ] 2024-01-08 19:23:35,125-User clicks on Get Started link on homepage without login
+[INFO ] 2024-01-08 19:23:35,171-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:35,773-User is in home page
+[INFO ] 2024-01-08 19:23:36,411-User clicks on Get Started link on homepage without login
+[INFO ] 2024-01-08 19:23:36,452-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:37,289-User is in home page
+[INFO ] 2024-01-08 19:23:38,309-User clicks on Get Started link on homepage without login
+[INFO ] 2024-01-08 19:23:38,347-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:38,915-User is in home page
+[INFO ] 2024-01-08 19:23:39,653-User clicks on Get Started link on homepage without login
+[INFO ] 2024-01-08 19:23:39,696-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:40,095-User is in home page
+[INFO ] 2024-01-08 19:23:40,851-User clicks on Get Started link on homepage without login
+[INFO ] 2024-01-08 19:23:40,887-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:41,457-User is in home page
+[INFO ] 2024-01-08 19:23:42,243-User clicks on dropdown
+[INFO ] 2024-01-08 19:23:42,276-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:42,832-User is in home page
+[INFO ] 2024-01-08 19:23:43,606-User clicks on dropdown
+[INFO ] 2024-01-08 19:23:43,645-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:44,216-User is in home page
+[INFO ] 2024-01-08 19:23:45,344-User clicks on dropdown
+[INFO ] 2024-01-08 19:23:45,381-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:45,953-User is in home page
+[INFO ] 2024-01-08 19:23:46,769-User clicks on dropdown
+[INFO ] 2024-01-08 19:23:46,806-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:47,378-User is in home page
+[INFO ] 2024-01-08 19:23:48,200-User clicks on dropdown
+[INFO ] 2024-01-08 19:23:48,235-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:48,811-User is in home page
+[INFO ] 2024-01-08 19:23:50,394-User clicks on dropdown
+[INFO ] 2024-01-08 19:23:50,433-User get warning message as You are not logged in
+[INFO ] 2024-01-08 19:23:50,970-User is in home page
+[INFO ] 2024-01-08 19:23:51,687-User clicks on signin link
+[INFO ] 2024-01-08 19:23:51,719-User is in login page
+[INFO ] 2024-01-08 19:23:52,694-User opens DS Algo portal link
+[INFO ] 2024-01-08 19:23:53,652-User clicks on Get Started button
+[INFO ] 2024-01-08 19:23:53,668-User is redirected to homepage
+[INFO ] 2024-01-08 19:23:54,771-The user in DS Algo Homepage
+[INFO ] 2024-01-08 19:23:55,371-User clicks on Registration Link
+[INFO ] 2024-01-08 19:23:55,740-User clicks on Registration Button with Empty feilds
+[ERROR] 2024-01-08 19:23:55,804-‹------- Error message ---------Please fill out this field.>
+[INFO ] 2024-01-08 19:23:55,804-Error Message dispalys below Username textbox
+[INFO ] 2024-01-08 19:23:56,230-The user clicks Register button after entering Username with other fields empty
+[ERROR] 2024-01-08 19:23:56,267-‹------- Error message ---------Please fill out this field.>
+[INFO ] 2024-01-08 19:23:56,268-Error Message dispalys 
+[INFO ] 2024-01-08 19:23:56,777-The user clicks Register button after entering Username and password with Password Confirmation field empty
+[ERROR] 2024-01-08 19:23:56,809-‹------- Error message ---------Please fill out this field.>
+[INFO ] 2024-01-08 19:23:56,809-Error Message dispalys 
+[INFO ] 2024-01-08 19:23:58,283-Error Message dispalys below Password textbox
+[INFO ] 2024-01-08 19:23:58,285-Error Message dispalys below Password textbox
+[INFO ] 2024-01-08 19:24:00,144-The user clicks Register button after entering different passwords in Password and Password Confirmation fields
+[ERROR] 2024-01-08 19:24:00,179-‹------- Error: ---------password_missmatch:The two password feilds didn't match.
+[ERROR] 2024-01-08 19:24:01,554-‹------- Error: ---------Password should containd atleast 8 charecters.
+[INFO ] 2024-01-08 19:24:03,000-‹------- Error: ---------New account created.You are logged in.
+[INFO ] 2024-01-08 19:24:03,000-It should display an new message with Account Username 
