@@ -159,7 +159,8 @@ Feature: Tree Homepage
     Then User click on RunButton
     Then The user gets an error message
 
-  Scenario: When I click the binaryTreeTraversals Link
+  Scenario: user click the binaryTreeTraversals Link
+  When user click the binaryTreeTraversals Link
 
   Scenario: Try here Valid Data
     Given The User navigates to Try EditorPage
