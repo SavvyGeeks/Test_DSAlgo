@@ -7,60 +7,60 @@ displayDetailed: t=ue
 displayAttached: false
 displayExpanded: true
  
-=ashboardConfig:
+dashboardConfig:
    title: Cucumber PDF Report
-   =ataBackgroundColor: 4F0CC8
+   dataBackgroundColor: 4F0CC8
    titleColor: FF0000
-  =20dateColor: 969696
+   dateColor: 969696
    timeColor: 000000
-   dial:=0D
+   dial:
       featureRanges: 60 95
       scen=rioRanges: 70 90
       stepRanges: 75 85
-  =20   badColor: f768a1
+      badColor: f768a1
       averageColor: 93ffff=0D
       goodColor: 32ecab
        
-=ummaryConfig:
+summaryConfig:
    totalColor: FF0000
    durationColo=: FF0000
     
 tagConfig:
-   totalColor: FF=000
+   totalColor: FF0000
     
 featureConfig:
-   totalColor: FF000=
+   totalColor: FF0000
    durationColor: FF0000
     
 scenarioConfi=:
    totalColor: FF0000
-   durationColor: FF0000=0A    
+   durationColor: FF0000
 detailedFeatureConfig:
-   featureNameColor: =F0000
+   featureNameColor: FF0000
    startEndTimeColor: 000000
    tagColor: 4=4040
    dataHeaderColor: FFFFFF
    dataBackgroundCo=or: 404040
    totalColor: 0000FF
-   durationColor= FFFFFF
+   durationColor: FFFFFF
    durationBackgroundColor: 404040  
-  =20 
+
 detailedScenarioConfig:
    featureNameColor: 404040=0D
    scenarioNameColor: FF0000
-   startEndTimeColor: =00000
+   startEndTimeColor: 000000
    tagColor: 404040
-   dataHeaderColor: FFFF=F
+   dataHeaderColor: FFFFFF
    dataBackgroundColor: 404040
-   totalColor: 0=00FF
+   totalColor: 0000FF
    durationColor: FFFFFF
    durationBackground=olor: 404040
    stepChartBarColor: 7f32a8
-    =0AdetailedStepHookConfig:
+    detailedStepHookConfig:
    stepTextColor: 0000FF
-  =20stepBackgroundColor: FFFFFF
+   stepBackgroundColor: FFFFFF
    hookTextColor: 00FF00
-=20  hookBackgroundColor: FFFFFF
-   durationColor: FF0000=0D
+   hookBackgroundColor: FFFFFF
+   durationColor: FF0000
    errorMsgColor: 000000
-   logMsgColor: 000000=
+   logMsgColor: 000000
